@@ -1,0 +1,173 @@
+:root{
+    --main-text: #422A47;
+    --pink-color: #FFF9E7;
+    --font-color: #4C3451;
+    --yellow-color:#FECD34;
+    --shadow-color:#fdedbc;
+}
+
+body{
+    color: var(--main-text);
+    background-color: #F9F9F9;
+    font-family: "Roboto", sans-serif;
+}
+.navbar {
+    position: relative;
+}
+.navbar .navbar-nav .nav-link{
+    color: var(--main-text);
+}
+.navbar .home-btn{
+    background-color: #FFF9E7;
+    border-radius: 15px
+}
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover{
+    background-color: #F1F2F5;
+    border-radius: 15px;
+}
+.navbar .navbar-nav .nav-link1:focus,
+.navbar .navbar-nav .nav-link1:hover{
+    background-color: #F1F2F5;
+    border-radius: 15px;
+}
+.navbar .navbar-nav .nav-link1{
+    text-decoration: none;
+    background-color: white;
+}
+.nav-link1.dropdown-toggle::after {
+    display: none;
+}
+.navbar .dropdown-menu {
+    position: absolute; 
+    z-index: 1000; 
+    
+}
+.dropdown-menu[data-bs-popper]{
+    margin-top: 18px;
+    
+}
+.dropdown-menu[data-bs-popper]{
+    left: -150px;
+}
+.home {
+    border-left: 1px solid #000;
+}
+.your-course{
+    color: var(--main-text);
+}
+.currentCourse{
+    background-color: var(--pink-color);
+    color: var(--font-color);
+}
+.currentCourse .current{
+    color: var(--main-text);
+}
+
+.see-all {
+    cursor: pointer;
+    color: var(--main-text);
+    text-decoration: none;
+}
+.see-all:focus,
+.see-all:hover{
+    color: var(--main-text);
+}
+.Teaching-text {
+    color: var(--main-text);
+}
+.Teaching-aids h4{
+    columns: var(--font-color);
+}
+.challenges ul:focus,
+.challenges ul:hover{
+    cursor: pointer;
+}
+.second{
+    background-color: #F0EEF0;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+}
+
+.number{
+    background-color: var(--yellow-color);
+    box-shadow: 0px 0px 10px 6px var(--shadow-color);
+    
+}
+.days-icon{
+    background-color: var(--yellow-color);
+    box-shadow: 0px 0px 10px 6px var(--shadow-color);
+    position: relative;
+    bottom: 5px;
+
+}
+.list-days:focus,
+.list-days:hover{
+    cursor: pointer;
+}
+.f1{
+    bottom: 30px;
+}
+.im1{
+    bottom: 16px;
+}
+.dayes{
+    justify-content: space-around;
+}
+.dayes ul{
+    color: var(--font-color);
+}
+.dayes{
+    bottom: 24px;
+}
+.thu{
+    background-color: var(--shadow-color);
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.dayes::after{
+    content: '';
+    width: calc(100% - 40px);
+    height: 1px;
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.11);
+    
+}
+.scor{
+    position: relative;
+    color: var(--font-color);
+    bottom: 10px;
+    height: 60px;
+    align-items: center;
+}
+.pfeers{
+    position: relative;
+    top: 10px;
+}
+.offers-one{
+    background-color: #FFF0C2;
+}
+.offers-tow{
+    background-color: #FFF9E7;
+}
+.Progress{
+    background-color: #ffffff;
+}
+.navbar{
+    position: sticky;
+}
+.first,
+.thred{
+    background-color: #ffffff;
+}
+.second-side {
+    padding-bottom: 15px;
+}
+
+
